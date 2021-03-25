@@ -1,0 +1,21 @@
+cc_binary {
+    name: "vendor.hmd.hardware.card_socket_state.test_client",
+    defaults: ["hidl_defaults"],
+    owner: "hmd",
+    vendor: true,
+
+    srcs: [
+        "test_client.cpp",
+    ],
+
+    shared_libs: [
+        "libcutils",
+        "liblog",
+        "libhidlbase",
+        "libhidltransport",
+        "libhardware",
+        "libutils",
+        "vendor.hmd.hardware.card_socket_state@1.0",
+    ],
+
+}
