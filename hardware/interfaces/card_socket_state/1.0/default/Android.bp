@@ -1,0 +1,25 @@
+cc_binary {
+    name: "vendor.hmd.hardware.card_socket_state@1.0-service",
+    defaults: ["hidl_defaults"],
+    init_rc: ["vendor.hmd.card_socket_state@1.0-service.rc"],
+    owner: "hmd",
+    vendor: true,
+    relative_install_path: "hw",
+    srcs: [
+        "CardSocketState.cpp",
+        "service.cpp",
+    ],
+
+    shared_libs: [
+        "libbase",
+        "libcutils",
+        "liblog",
+        "libhidlbase",
+        "libhidltransport",
+        "libhardware",
+        "libutils",
+        "vendor.hmd.hardware.card_socket_state@1.0",
+    ],
+
+    vintf_fragments: ["vendor.hardware.card_socket_state@2.0-service.hmd.xml"],
+}
