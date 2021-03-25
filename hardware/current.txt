@@ -1,0 +1,2 @@
+be32d28ac0ee95b7d1b4318e2215f2b20ff088769a10ec6eed408efc2baea327 vendor.hmd.hardware.card_socket_state@1.0::ICardSocketState
+74c69a78ae60b0d6a0c714860d8122b96194e7795698a1f755bae23c8b0fa347 vendor.hmd.hardware.card_socket_state@1.0::ICardSocketStateCallback

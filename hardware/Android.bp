@@ -1,0 +1,8 @@
+subdirs = [
+    "*"
+]
+
+hidl_package_root {
+    name: "vendor.hmd.hardware",
+    path: "vendor/hmd/hardware/interfaces",
+}
