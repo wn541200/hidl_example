@@ -1,0 +1,5 @@
+package vendor.hmd.hardware.card_socket_state@1.0;
+
+interface ICardSocketStateCallback {
+    oneway onStateChanged(int32_t isCardSlotInsert);
+};

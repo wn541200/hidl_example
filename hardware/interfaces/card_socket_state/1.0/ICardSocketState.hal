@@ -1,0 +1,8 @@
+package vendor.hmd.hardware.card_socket_state@1.0;
+
+import ICardSocketStateCallback;
+
+interface ICardSocketState {
+    getCardSocketState() generates (int32_t result);
+    setNotify(ICardSocketStateCallback clientCallback) generates (int32_t ret);
+};
