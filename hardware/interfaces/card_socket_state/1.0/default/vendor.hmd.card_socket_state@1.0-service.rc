@@ -1,0 +1,5 @@
+service vendor.hmd.card_socket_state-1-0 /vendor/bin/hw/vendor.hmd.hardware.card_socket_state@1.0-service
+    interface vendor.hmd.hardware.card_socket_state@1.0::ICardSocketState default
+    class hal
+    user system
+    group system

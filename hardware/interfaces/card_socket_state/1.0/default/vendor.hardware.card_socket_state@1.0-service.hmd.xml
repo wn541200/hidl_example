@@ -1,0 +1,11 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.hmd.hardware.card_socket_state</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ICardSocketState</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</manifest>
